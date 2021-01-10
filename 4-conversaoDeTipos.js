@@ -20,3 +20,4 @@ console.log(
 console.log(
   "Ou seja, ele tenta fazer a operação mas nao consegue por um dos tipos nao ser numero, retornando esse tipo 'NaN'"
 );
+console.log("Ricardo" / "2");
