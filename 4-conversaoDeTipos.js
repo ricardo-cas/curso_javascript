@@ -21,3 +21,11 @@ console.log(
   "Ou seja, ele tenta fazer a operação mas nao consegue por um dos tipos nao ser numero, retornando esse tipo 'NaN'"
 );
 console.log("Ricardo" / "2");
+
+console.log(
+  'Para trabalhar com números quebrados, é necessário utilizar o "." pois a "," é interpretada de outra maneira pelo JavaScript'
+);
+console.log("Usando o '.' : ");
+console.log(6.5);
+console.log("Usando a ',' : ");
+console.log(6, 5);
