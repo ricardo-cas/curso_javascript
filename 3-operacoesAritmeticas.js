@@ -20,3 +20,13 @@ console.log(2 + 2);
 console.log("Operações complexas:");
 console.log(10 + 8 * 2);
 console.log("<<<<");
+
+// criando variaveis
+
+const nome = "Ricardo";
+const idade = 28;
+const ano = 2021;
+
+console.log(nome);
+console.log(idade);
+console.log(ano);
