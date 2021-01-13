@@ -11,4 +11,5 @@ const listaDeDestinos = new Array(
 
 // como imprimir a lista?
 console.log(`Destinos possíveis:`);
+
 console.log(listaDeDestinos);
