@@ -11,5 +11,9 @@ const listaDeDestinos = new Array(
 
 // como imprimir a lista?
 console.log(`Destinos possíveis:`);
-
+console.log(listaDeDestinos);
+console.log(`Para adicionar algum item dentro de uma lista {Array}\n
+é utilizado o comando '.push()'\n`);
+listaDeDestinos.push(`Curitiba`, `Natal`, `Rio Grande o Sul`, `Minas Gerais`);
+console.log(`Destinos possíveis:`);
 console.log(listaDeDestinos);
