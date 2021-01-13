@@ -6,11 +6,12 @@ const listaDeDestinos = new Array(
   `São Paulo`,
   `Rio de Janeiro`
 );
-
-console.log(`Deletando itens...`);
-listaDeDestinos.splice(0, 3);
+console.log(`Destinos disponíveis para compra: `);
 console.log(listaDeDestinos);
-console.log(`\n
-Para mostrar somente um elemento da lista, é necessário passar o indice como parametro da lista`);
-console.log(listaDeDestinos[0]);
-console.log(listaDeDestinos[0], listaDeDestinos[3]);
+
+console.log(
+  `Destino vendido! :)\nAproveite a viagem para ${listaDeDestinos[0]} :) `
+);
+listaDeDestinos.splice(0, 1);
+console.log(`Destinos disponíveis para a compra:\n *Sujeito a disponibilidade`);
+console.log(listaDeDestinos);
