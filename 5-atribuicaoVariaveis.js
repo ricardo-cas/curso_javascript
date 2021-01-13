@@ -25,3 +25,7 @@ console.log(
 console.log(
   `const:  Esste tipo não permite que seja alterado seu tipo, pois é uma variável constante, ou seja, imutável`
 );
+console.log("\n");
+console.log(`**********************************`);
+console.log("\n");
+console.log("Aula finalizada....");
