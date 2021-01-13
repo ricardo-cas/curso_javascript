@@ -24,3 +24,6 @@ console.log(listaDeDestinos);
 console.log(`Deletando itens...`);
 listaDeDestinos.splice(0, 3);
 console.log(listaDeDestinos);
+console.log(`\n
+Para mostrar somente um elemento da lista, é necessário passar o indice como parametro da lista`);
+console.log(listaDeDestinos[0]);
