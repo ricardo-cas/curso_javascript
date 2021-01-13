@@ -14,6 +14,7 @@ console.log(`Destinos possíveis:`);
 console.log(listaDeDestinos);
 console.log(`Para adicionar algum item dentro de uma lista {Array}\n
 é utilizado o comando '.push()'\n`);
+console.log(`Adicionando itens...`);
 listaDeDestinos.push(`Curitiba`, `Natal`, `Rio Grande o Sul`, `Minas Gerais`);
 console.log(`Destinos possíveis:`);
 console.log(listaDeDestinos);
@@ -27,3 +28,4 @@ console.log(listaDeDestinos);
 console.log(`\n
 Para mostrar somente um elemento da lista, é necessário passar o indice como parametro da lista`);
 console.log(listaDeDestinos[0]);
+console.log(listaDeDestinos[0], listaDeDestinos[3]);
